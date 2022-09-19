@@ -10,8 +10,10 @@
 <table class="table table-striped">
   <thead>
     <tr>
-      <th>ID</th>
-      <th>Name</th>
+      <th>Course ID</th>
+      <th>Prefix </th>
+      <th>number </th>
+      <th>description</th>
     </tr>
   </thead>
   <tbody>
