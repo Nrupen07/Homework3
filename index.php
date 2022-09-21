@@ -54,7 +54,7 @@ $conn->close();
 ?>
   </tbody>
     </table>
-    <h1 style="color:Blue">Post Reference !! /h1>
+    <h1 style="color:Blue">Post Reference !! </h1>
     <form action="handlepost.php" method="get">
 Name: <input type="text" name="name"><br>
 E-mail: <input type="text" name="email"><br>
