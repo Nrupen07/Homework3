@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   
-  <h1> <center> Welcome to Homework 3!! Databases & SQL </center> </h1>
+  <h1 style="color:Blue"> <center> Welcome to Homework 3!! Databases & SQL </center> </h1>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -54,7 +54,7 @@ $conn->close();
 ?>
   </tbody>
     </table>
-    <h1>Hello, world!</h1>
+    <h1 style="color:Blue">Post Reference !! /h1>
     <form action="handlepost.php" method="get">
 Name: <input type="text" name="name"><br>
 E-mail: <input type="text" name="email"><br>
