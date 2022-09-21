@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
-  h1 {text-align: center;}
-  <h1> Welcome to Homework 3!! Databases & SQL </h1>
+  
+  <h1> <center> Welcome to Homework 3!! Databases & SQL </center> </h1>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
