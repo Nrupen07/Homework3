@@ -20,10 +20,10 @@
   </thead>
   <tbody>
     <?php
-$servername = "localhost";
-$username = "projecto_homework3";
-$password = "0w_zeP}]OVy0";
-$dbname = "projecto_homework3";
+$$servername = "localhost";
+$username = "nrupenou_suser";
+$password = "rVZk3)Cfu.2T";
+$dbname = "nrupenou_homework3";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
