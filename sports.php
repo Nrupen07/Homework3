@@ -1,5 +1,5 @@
 <?php require_once('header.php');?>
-
+<h1> POPULAR SPORTS! </h1>
 <table class="table table-striped">
   <thead>
     <tr>
