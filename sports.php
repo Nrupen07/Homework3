@@ -3,10 +3,10 @@
 <table class="table table-striped">
   <thead>
     <tr>
-      <th>Course ID</th>
-      <th>Prefix </th>
-      <th>number </th>
-      <th>description</th>
+      <th>RANK </th>
+      <th>Sport Name </th>
+      <th>Famous Player</th>
+      <th>Country</th>
     </tr>
   </thead>
   <tbody>
@@ -23,7 +23,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT course_id, prefix, number, description from course";
+$sql = "SELECT rank_id, sport name, famous player, country from famous sports";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -31,10 +31,10 @@ if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
 ?>
   <tr>
-    <td><?=$row["course_id"]?></td>
-    <td><?=$row["prefix"]?></td>
-    <td><?=$row["number"]?></td>
-    <td><?=$row["description"]?></td>
+    <td><?=$row["Rank_ID"]?></td>
+    <td><?=$row["sport name"]?></td>
+    <td><?=$row["famous player"]?></td>
+    <td><?=$row["country"]?></td>
   </tr>
 <?php
   }
