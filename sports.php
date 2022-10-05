@@ -31,7 +31,7 @@ if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
 ?>
   <tr>
-    <td><?=$row["Rank_ID"]?></td>
+    <td><?=$row["rank_ID"]?></td>
     <td><?=$row["sport name"]?></td>
     <td><?=$row["famous player"]?></td>
     <td><?=$row["country"]?></td>
@@ -47,7 +47,5 @@ $conn->close();
     </table>
    
     
-    <a class="btn btn-primary" href="page2.html" role="button">Page 2</a>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
