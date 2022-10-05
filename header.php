@@ -25,7 +25,7 @@
         </li> <li class="nav-item">
           <a class="nav-link" href="instructors.php">Instructors</a>
         </li> <li class="nav-item">
-          <a class="nav-link" href="section.php">Sections</a>
+          <a class="nav-link" href="sections.php">Sections</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
