@@ -23,7 +23,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT rank_id, sport name, famous player, country from famous sports";
+$sql = "SELECT rank_id,sport,player,country FROM `famous sports`";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
