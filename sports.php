@@ -31,9 +31,9 @@ if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
 ?>
   <tr>
-    <td><?=$row["rank_ID"]?></td>
-    <td><?=$row["sport name"]?></td>
-    <td><?=$row["famous player"]?></td>
+    <td><?=$row["rank_id"]?></td>
+    <td><?=$row["sport"]?></td>
+    <td><?=$row["player"]?></td>
     <td><?=$row["country"]?></td>
   </tr>
 <?php
