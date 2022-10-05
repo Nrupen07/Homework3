@@ -17,12 +17,10 @@
           <a class="nav-link" href="course.php">Classes</a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="course-section.php">Section Number</a>
-        </li> <li class="nav-item">
+ 
           <a class="nav-link" href="instructor-cards.php">Name Cards</a>
         </li> <li class="nav-item">
-          <a class="nav-link" href="instructor-section.php">Section Instructors</a>
-        </li> <li class="nav-item">
+         
           <a class="nav-link" href="instructors.php">Instructors</a>
         </li> <li class="nav-item">
           <a class="nav-link" href="sections.php">Sections</a>
@@ -32,15 +30,12 @@
             Dropdown
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="course-section.php">Section Number</a></li>
+            <li><a class="dropdown-item" href="instructor-section.php">Section Instructors</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
-        </li>
+        
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
